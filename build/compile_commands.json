@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/game/game.c.obj -c /src/src/game/game.c",
+  "file": "/src/src/game/game.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/game/hud.c.obj -c /src/src/game/hud.c",
+  "file": "/src/src/game/hud.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/main.c.obj -c /src/src/main.c",
+  "file": "/src/src/main.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/ps1/font.c.obj -c /src/src/ps1/font.c",
+  "file": "/src/src/ps1/font.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/ps1/gfx.c.obj -c /src/src/ps1/gfx.c",
+  "file": "/src/src/ps1/gfx.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/ps1/models.c.obj -c /src/src/ps1/models.c",
+  "file": "/src/src/ps1/models.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/ps1/pad.c.obj -c /src/src/ps1/pad.c",
+  "file": "/src/src/ps1/pad.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/ps1/sky.c.obj -c /src/src/ps1/sky.c",
+  "file": "/src/src/ps1/sky.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/ps1/water.c.obj -c /src/src/ps1/water.c",
+  "file": "/src/src/ps1/water.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/sim/board.c.obj -c /src/src/sim/board.c",
+  "file": "/src/src/sim/board.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/sim/chase.c.obj -c /src/src/sim/chase.c",
+  "file": "/src/src/sim/chase.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/sim/fx.c.obj -c /src/src/sim/fx.c",
+  "file": "/src/src/sim/fx.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/sim/ocean.c.obj -c /src/src/sim/ocean.c",
+  "file": "/src/src/sim/ocean.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/sim/score.c.obj -c /src/src/sim/score.c",
+  "file": "/src/src/sim/score.c"
+},
+{
+  "directory": "/src/build",
+  "command": "/opt/gcc-root/bin/mipsel-none-elf-gcc -DNDEBUG=1 -DPSN00BSDK=1 -I/opt/psn00b/lib/libpsn00b/cmake/../../../include/libpsn00b -I/src/src -O3 -DNDEBUG -g -Wa,--strip-local-absolute -ffreestanding -fno-builtin -nostdlib -fdata-sections -ffunction-sections -fsigned-char -fno-strict-overflow -fdiagnostics-color=always -msoft-float -march=r3000 -mtune=r3000 -mabi=32 -mno-mt -mno-llsc -O2 -G8 -fno-pic -mno-abicalls -mgpopt -mno-extern-sdata -o CMakeFiles/xenoswell.dir/src/sim/surfer.c.obj -c /src/src/sim/surfer.c",
+  "file": "/src/src/sim/surfer.c"
+}
+]

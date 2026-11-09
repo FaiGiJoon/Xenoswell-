@@ -1,0 +1,4 @@
+/src/build/CMakeFiles/xenoswell.dir
+/src/build/CMakeFiles/xenoswell_iso.dir
+/src/build/CMakeFiles/edit_cache.dir
+/src/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+project(xenoswell LANGUAGES C CXX ASM)
+file(GLOB_RECURSE SRCS CONFIGURE_DEPENDS src/*.c)
+psn00bsdk_add_executable(xenoswell GPREL ${SRCS})
+target_include_directories(xenoswell PRIVATE src)
+psn00bsdk_add_cd_image(xenoswell_iso xenoswell iso.xml DEPENDS xenoswell system.cnf)

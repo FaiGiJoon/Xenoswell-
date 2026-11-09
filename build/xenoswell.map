@@ -1,0 +1,177 @@
+__text_start T ffffffff80010000 	/src/src/game/game.c:24
+centred t ffffffff80010000 b0	/src/src/game/game.c:24
+draw_world.constprop.0 t ffffffff800100b0 90	/src/src/game/game.c:16
+game_run T ffffffff80010140 880	/src/src/game/game.c:173
+hud_event_text T ffffffff800109c0 84	/src/src/game/hud.c:14
+hud_draw T ffffffff80010a44 474	/src/src/game/hud.c:47
+main T ffffffff80010eb8 20	/src/src/main.c:3
+font_index T ffffffff80010ed8 60	/src/src/ps1/font.c:24
+gfx_init T ffffffff80010f38 228	/src/src/ps1/gfx.c:46
+gfx_begin T ffffffff80011160 70	/src/src/ps1/gfx.c:65
+gfx_end T ffffffff800111d0 114	/src/src/ps1/gfx.c:71
+gfx_fps T ffffffff800112e4 c	/src/src/ps1/gfx.c:90
+gfx_cpu_hblanks T ffffffff800112f0 c	/src/src/ps1/gfx.c:91
+gfx_set_camera T ffffffff800112fc 1f8	/src/src/ps1/gfx.c:93
+gfx_forward T ffffffff800114f4 c	/src/src/ps1/gfx.c:114
+gfx_alloc T ffffffff80011500 5c	/src/src/ps1/gfx.c:116
+gfx_ot T ffffffff8001155c 44	/src/src/ps1/gfx.c:124
+gfx_transform T ffffffff800115a0 464	/src/src/ps1/gfx.c:137
+gfx_project_dir T ffffffff80011a04 188	/src/src/ps1/gfx.c:164
+gfx_quad_ok T ffffffff80011b8c f4	/src/src/ps1/gfx.c:175
+gfx_depth_index T ffffffff80011c80 2c	/src/src/ps1/gfx.c:189
+gfx_set_depth_bias T ffffffff80011cac 8	/src/src/ps1/gfx.c:195
+gfx_quad T ffffffff80011cb4 1fc	/src/src/ps1/gfx.c:197
+gfx_quad_clipped T ffffffff80011eb0 650	/src/src/ps1/gfx.c:225
+gfx_text_scaled T ffffffff80012500 244	/src/src/ps1/gfx.c:265
+box t ffffffff80012744 2f0	/src/src/ps1/models.c:37
+surface_pitch.part.0 t ffffffff80012a34 80	/src/src/ps1/models.c:47
+model_draw_board T ffffffff80012ab4 168	/src/src/ps1/models.c:55
+model_draw_surfer T ffffffff80012c1c 324	/src/src/ps1/models.c:64
+pad_init T ffffffff80012f40 3c	/src/src/ps1/pad.c:10
+pad_read T ffffffff80012f7c 114	/src/src/ps1/pad.c:16
+body t ffffffff80013090 448	/src/src/ps1/sky.c:67
+sky_draw T ffffffff800134d8 348	/src/src/ps1/sky.c:76
+water_draw T ffffffff80013820 964	/src/src/ps1/water.c:76
+board_speed T ffffffff80014184 10	/src/src/sim/board.c:12
+board_step T ffffffff80014194 4c4	/src/src/sim/board.c:34
+chase_step T ffffffff80014658 218	/src/src/sim/chase.c:11
+chase_quad_visible T ffffffff80014870 2c	/src/src/sim/chase.c:35
+fx_mul T ffffffff8001489c 1c	/src/src/sim/fx.c:4
+fx_div T ffffffff800148b8 48	/src/src/sim/fx.c:6
+fx_sin T ffffffff80014900 84	/src/src/sim/fx.c:8
+fx_cos T ffffffff80014984 88	/src/src/sim/fx.c:16
+fx_hyp T ffffffff80014a0c 124	/src/src/sim/fx.c:31
+fx_atan2 T ffffffff80014b30 258	/src/src/sim/fx.c:35
+v3_dot T ffffffff80014d88 6c	/src/src/sim/fx.c:50
+v3_norm T ffffffff80014df4 1f8	/src/src/sim/fx.c:54
+ocean_init T ffffffff80014fec a8	/src/src/sim/ocean.c:26
+ocean_step T ffffffff80015094 1ac	/src/src/sim/ocean.c:33
+ocean_height T ffffffff80015240 174	/src/src/sim/ocean.c:50
+ocean_normal T ffffffff800153b4 a8	/src/src/sim/ocean.c:63
+ocean_swell_at T ffffffff8001545c 6c	/src/src/sim/ocean.c:71
+ocean_is_broken T ffffffff800154c8 c	/src/src/sim/ocean.c:79
+heat_init T ffffffff800154d4 30	/src/src/sim/score.c:8
+heat_on_trick T ffffffff80015504 d0	/src/src/sim/score.c:27
+heat_on_events T ffffffff800155d4 d4	/src/src/sim/score.c:37
+heat_step T ffffffff800156a8 120	/src/src/sim/score.c:51
+heat_total T ffffffff800157c8 10	/src/src/sim/score.c:73
+surfer_init T ffffffff800157d8 24	/src/src/sim/surfer.c:16
+surfer_step T ffffffff800157fc 598	/src/src/sim/surfer.c:109
+__divdi3 T ffffffff80015d94 5f0	/home/runner/work/PSn00bSDK/PSn00bSDK/gcc_linux/mipsel-none-elf/soft-float/libgcc/../../../../gcc-12.3.0/libgcc/libgcc2.c:1211
+_vblank_handler t ffffffff80016384 28	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:40
+_process_drawop t ffffffff800163ac a8	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:47
+_gpu_irq_handler t ffffffff80016454 30	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:68
+_gpu_dma_handler t ffffffff80016484 24	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:75
+_default_vsync_halt t ffffffff800164a8 58	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:131
+ResetGraph T ffffffff80016500 12c	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:82
+VSync T ffffffff8001662c 170	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:143
+SetDrawOpType T ffffffff8001679c 10	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:195
+EnqueueDrawOp T ffffffff800167ac c8	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:199
+DrawSync T ffffffff80016874 cc	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/common.c:239
+_send_linked_list T ffffffff80016940 78	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/drawing.c:15
+ClearOTagR T ffffffff800169b8 5c	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/drawing.c:120
+_build_drawenv_ot t ffffffff80016a14 1f0	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/env.c:37
+SetDefDrawEnv T ffffffff80016c04 54	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/env.c:81
+DrawOTagEnv T ffffffff80016c58 30	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/env.c:107
+SetDefDispEnv T ffffffff80016c88 34	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/env.c:149
+PutDispEnv T ffffffff80016cbc 18c	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/env.c:169
+SetVideoMode T ffffffff80016e48 54	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/env.c:259
+SetDispMask T ffffffff80016e9c 1c	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/env.c:276
+_dma_transfer t ffffffff80016eb8 16c	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/image.c:30
+LoadImage T ffffffff80017024 70	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgpu/image.c:72
+InitGeom T ffffffff80017094 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxgte/initgeom.s:11
+_global_dma_handler t ffffffff800170f8 cc	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxetc/interrupts.c:79
+_global_isr t ffffffff800171c4 bc	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxetc/interrupts.c:57
+RestartCallback.part.0 t ffffffff80017280 88	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxetc/interrupts.c:203
+InterruptCallback T ffffffff80017308 64	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxetc/interrupts.c:103
+DMACallback T ffffffff8001736c ec	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxetc/interrupts.c:125
+SetDMAPriority T ffffffff80017458 58	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxetc/interrupts.c:160
+ResetCallback T ffffffff800174b0 b4	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxetc/interrupts.c:183
+EnterCriticalSection T ffffffff80017564 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/_syscalls.s:13
+ExitCriticalSection T ffffffff80017574 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/_syscalls.s:24
+_96_remove T ffffffff80017584 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/drivers.s:31
+printf T ffffffff80017590 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/stdio.s:119
+InitPAD T ffffffff8001759c 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/sys.s:241
+StartPAD T ffffffff800175a8 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/sys.s:249
+ReturnFromException T ffffffff800175b4 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/sys.s:265
+HookEntryInt T ffffffff800175c0 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/sys.s:281
+ChangeClearPAD T ffffffff800175cc 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/sys.s:313
+ChangeClearRCnt T ffffffff800175d8 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/psxapi/sys.s:355
+_start W ffffffff800175e4 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/_start.s:16
+memset T ffffffff800175f4 	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/memset.s:13
+_start_inner T ffffffff80017744 118	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/start.c:73
+get_arg_in_size T ffffffff8001785c b8	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/vsprintf.c:102
+vsnprintf T ffffffff80017914 dfc	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/vsprintf.c:376
+sprintf T ffffffff80018710 38	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/vsprintf.c:788
+InitHeap W ffffffff80018748 28	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/malloc.c:40
+strlen T ffffffff80018770 3c	/home/runner/work/PSn00bSDK/PSn00bSDK/sdk/libpsn00b/libc/string.c:234
+NAMES.0 r ffffffff80018928 1c
+FONT_COLS R ffffffff80018a14 cd
+FONT_CHARS R ffffffff80018ae4 2a
+FACE_LIGHT r ffffffff80018b2c c
+FACES r ffffffff80018b38 18
+SIN_Q r ffffffff80018b50 802
+SPIN_POINTS.0 r ffffffff80019354 10
+__clz_tab R ffffffff80019380 100
+_isr_jmp_buf r ffffffff80019480 30
+__CTOR_LIST__ D ffffffff80019630 
+__CTOR_END__ D ffffffff80019638 
+__DTOR_LIST__ D ffffffff80019640 
+__DTOR_END__ D ffffffff80019648 
+fps_value d ffffffff80019650 4
+_vsync_halt_func d ffffffff80019654 4
+__bss_start B ffffffff80019658 
+depth_bias b ffffffff80019658 4
+cpu_hblanks b ffffffff8001965c 4
+fps_start b ffffffff80019660 4
+fps_frames b ffffffff80019664 4
+last_vsync b ffffffff80019668 4
+next_packet b ffffffff8001966c 4
+current b ffffffff80019670 4
+anim b ffffffff80019674 4
+_last_hblank b ffffffff80019678 2
+_last_vblank b ffffffff8001967c 4
+_vblank_counter b ffffffff80019680 4
+_drawop_type b ffffffff80019684 1
+_queue_length b ffffffff80019685 1
+_queue_tail b ffffffff80019686 1
+_queue_head b ffffffff80019687 1
+_drawsync_callback b ffffffff80019688 4
+_vsync_callback b ffffffff8001968c 4
+_gpu_video_mode B ffffffff80019690 4
+_next_saved_rect b ffffffff80019694 4
+_isr_installed b ffffffff80019698 4
+_saved_dma_dicr b ffffffff8001969c 4
+_saved_dma_dpcr b ffffffff800196a0 4
+_saved_irq_mask b ffffffff800196a4 2
+_num_dma_handlers b ffffffff800196a8 4
+__argv B ffffffff800196ac 4
+__argc B ffffffff800196b0 4
+_alloc_tail b ffffffff800196b4 4
+_alloc_head b ffffffff800196b8 4
+_alloc_start b ffffffff800196bc 4
+_heap_alloc_max b ffffffff800196c0 4
+_heap_alloc b ffffffff800196c4 4
+_heap_limit b ffffffff800196c8 4
+_heap_end b ffffffff800196cc 4
+_heap_start b ffffffff800196d0 4
+heat.1 b ffffffff800196d4 24
+ocean.2 b ffffffff800196f8 54
+font_pixels b ffffffff8001974c 1800
+cam_f b ffffffff8001af4c c
+cam_u b ffffffff8001af58 c
+cam_r b ffffffff8001af64 c
+cam_eye b ffffffff8001af70 c
+buffers b ffffffff8001af7c 220a8
+_gp d ffffffff80021640 
+pad_buffers b ffffffff8003d024 44
+col b ffffffff8003d068 484
+sz b ffffffff8003d4ec 484
+sxy b ffffffff8003d970 484
+pos b ffffffff8003ddf4 d8c
+_draw_queue b ffffffff8003eb80 100
+_saved_rects b ffffffff8003ec80 80
+_isr_stack b ffffffff8003ed00 1000
+_dma_handlers b ffffffff8003fd00 1c
+_irq_handlers b ffffffff8003fd1c 2c
+_end B ffffffff8003fd48 

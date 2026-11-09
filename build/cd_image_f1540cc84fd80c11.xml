@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<iso_project image_name=".bin" cue_sheet=".cue">
+  <track type="data">
+    <identifiers system="PLAYSTATION" volume="XENOSWELL" volume_set="XENOSWELL" publisher="HOMEBREW" data_preparer="PSN00BSDK" application="PLAYSTATION" copyright="NONE"/>
+    <directory_tree>
+      <file name="SYSTEM.CNF" type="data" source="/src/system.cnf"/>
+      <file name="XENOSWEL.EXE" type="data" source="xenoswell.exe"/>
+      <dummy sectors="1024"/>
+    </directory_tree>
+  </track>
+</iso_project>
